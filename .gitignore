@@ -1,0 +1,63 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyc
+
+# Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# Model files (large — regenerate with train_model.py)
+# model/crop_model.pkl  ← intentionally kept small for this repo
+
+# Report generation scripts (internal, not relevant to the app)
+generate_*.py
+assemble_*.py
+sections_*.py
+section_10*.py
+parse_*.py
+perfect_*.py
+calibrate_*.py
+capture_ui.py
+doc_helpers.py
+test_*.py
+fix_page_numbers.py
+final_audit.py
+check_detail.py
+
+# Internal data / reports
+*.docx
+*.docx.bak
+report_detail.pdf
+Internship_Report.pdf
+annexures_data.json
+metrics.json
+report_detail_text.txt
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+*.swp
+
+# Temporary
+*.log
+*.tmp
+report_figures/
+template_extracted/
+word/
+github_repo/
